@@ -1,0 +1,10 @@
+import React from 'react';
+
+import Product  from '../components/Products/Products';
+
+const Products = () =>{
+   return (
+       <Product />
+   )
+}
+export default Products;

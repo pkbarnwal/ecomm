@@ -1,0 +1,28 @@
+.cardContainer{
+  width:'80%';
+}
+.imageContainer{
+  width:'90%';
+ }
+.image{
+  width:16rem;
+  height:15rem;
+}
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5rem 0;
+  }
+ .actions button {
+    background-color: transparent;
+    border: 1px solid rgb(82, 82, 82);
+    margin-left: 0.5rem;
+    padding: 0.15rem 1rem;
+    color: rgb(8, 7, 7);
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #999595;
+    color: rgb(41, 39, 39);
+  }

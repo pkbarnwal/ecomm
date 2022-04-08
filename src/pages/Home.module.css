@@ -1,0 +1,27 @@
+.content{
+    text-align: center;
+    justify-content: center;
+    /* color:#fff; */
+    padding:auto;
+    margin:auto;
+}
+.lowerContent{
+    padding-top:0px;
+    margin-top:-1rem;
+}
+.button{
+    cursor: pointer;
+    font: inherit;
+    outline:none;
+    border:none;
+    background-color: #463fad;
+    color: rgb(255, 255, 255);
+    padding: 1rem 1rem;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.button:hover,
+.button:active {
+  background-color: #5f52d6;
+}
